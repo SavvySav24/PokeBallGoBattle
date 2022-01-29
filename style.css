@@ -1,4 +1,48 @@
 body {
     text-align: center;
-    font-family: Georgia;
+    font-family: 'Mochiy Pop P One', sans-serif;
+  }
+  
+  .choice > img {
+   width: 100px;
+  }
+  
+  
+  .scoreboard {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgba(221, 213, 213, 0.40);
+    border: 2px solid darkblue;
+    width: 450px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  
+  
+  .scoreboard_name, .scoreboard_score {
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .scoreboard_name {
+    font-weight: bold;
+    border-bottom: 5px solid #ddd;
+  }
+  
+  .scoreboard_name--one{
+    color:crimson;
+    font-size: 1em;
+  
+  }
+  
+  .scoreboard_name--two{
+    color:crimson;
+    font-size: 1em;
+  
+  }
+  
+  .scoreboard_score {
+    font-size: 1.5em;
   }
