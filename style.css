@@ -3,8 +3,19 @@ body {
     font-family: 'Mochiy Pop P One', sans-serif;
   }
   
-  .choice > img {
-   width: 100px;
+  .choice#charmander > img{
+    width: 200px;
+    height: 100px;
+  }
+  
+  .choice#squirtle > img{
+    width: 100px;
+    
+  }
+  
+  .choice#bulbasaur > img{
+    width: 130px;
+    height: 125px;
   }
   
   

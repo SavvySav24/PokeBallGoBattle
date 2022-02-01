@@ -182,7 +182,6 @@ if (youScore === 3){
   const computerScoreboard = document.getElementById('scoreboard_score-computer');
 
   youScoreboard.textContent = youScore;
-
   computerScoreboard.textContent = computerScore;
 
 }
@@ -199,7 +198,6 @@ else if (computerScore === 3){
   const computerScoreboard = document.getElementById('scoreboard_score-computer');
 
   youScoreboard.textContent = youScore;
-
   computerScoreboard.textContent = computerScore;
 
 }
