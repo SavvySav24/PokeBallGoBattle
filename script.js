@@ -49,7 +49,7 @@ let computerChooses = function(){
   console.log(compchoice);
 }
 
-// caulc
+//Gameplay - calulate winner
 const calculateWinner = function() {
   // console.log("in calculate winner");
   const playerChoice = player.currentChoice;

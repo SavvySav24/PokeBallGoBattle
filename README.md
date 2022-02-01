@@ -21,3 +21,10 @@ Squirtle beats Charmander
 Bulbasaur beats Squirtle
 
  The first one to reach 3 win game points is the Victor!
+
+
+
+ --Tools Used--
+
+Coded in JavaScript, HTML, and CSS using Visual Studio Code
+
