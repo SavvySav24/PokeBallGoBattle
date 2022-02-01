@@ -42,7 +42,6 @@ if (btns !== null){
 
 const choices = ['charmander', 'squirtle', 'bulbasaur']
 
-// 
 let computerChooses = function(){
   const randomIndex = Math.floor(Math.random() * choices.length);
   let compchoice = choices[randomIndex];
@@ -50,7 +49,7 @@ let computerChooses = function(){
   console.log(compchoice);
 }
 
-// caulculating winner
+// caulc
 const calculateWinner = function() {
   // console.log("in calculate winner");
   const playerChoice = player.currentChoice;
@@ -122,6 +121,7 @@ const calculateWinner = function() {
 
 
 let updateWinnerStatement = function(winner) {
+
   let winnersentence;
 
   if (winner === "computer"){
@@ -142,6 +142,7 @@ let updateWinnerStatement = function(winner) {
 
 
 let updateWinnerScoreboard = function(winner) {
+
 
   if (winner === "computer"){
     computerScore = computerScore + 1;
@@ -182,6 +183,7 @@ if (youScore === 3){
   const computerScoreboard = document.getElementById('scoreboard_score-computer');
 
   youScoreboard.textContent = youScore;
+
   computerScoreboard.textContent = computerScore;
 
 }
@@ -198,9 +200,9 @@ else if (computerScore === 3){
   const computerScoreboard = document.getElementById('scoreboard_score-computer');
 
   youScoreboard.textContent = youScore;
+
   computerScoreboard.textContent = computerScore;
 
 }
 
 }
-

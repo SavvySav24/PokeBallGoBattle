@@ -3,6 +3,20 @@ body {
     font-family: 'Mochiy Pop P One', sans-serif;
   }
   
+  .frontpage{
+    background: url(https://i.imgur.com/Ryjw0dE.jpg);
+    background-size: cover;
+    background-position: center;
+    color: whitesmoke
+  }
+  
+  .game{
+    background: url(https://i.imgur.com/L3rsL62.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
   .choice#charmander > img{
     width: 200px;
     height: 100px;
@@ -17,6 +31,7 @@ body {
     width: 130px;
     height: 125px;
   }
+  
   
   
   .scoreboard {
